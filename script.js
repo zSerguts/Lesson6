@@ -10,13 +10,11 @@ function getRandomInt(max) {
 
 
 let number = getRandomInt(100);
-console.log (number);
 let attempts = 10;
 
 
 function Guess(){
     if (attempts !== 0){
-        console.log(attempts);
         let temp = prompt('Угадай число от 1 до 100:');
         if (typeof(temp) === 'object'){
             alert('Игра окончена.');
