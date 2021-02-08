@@ -8,7 +8,6 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 const number = getRandomInt(100);
-console.log (number);
 function Guess(){
     let temp = prompt('Угадай число от 1 до 100:');
     if (typeof(temp) === 'object'){
